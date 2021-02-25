@@ -18,8 +18,7 @@ public class EntityScanExampleApplicationTests {
 
     @Test
     public void entitiesScanTest() {
-
-        assertThat(entityscan.getPackageNames()).contains("com.test");
+        assertThat(entityscan.getPackageNames()).contains("com.value");
     }
 
 }
